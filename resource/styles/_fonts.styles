@@ -1,0 +1,128 @@
+"" {
+  styles {
+    // --- buttons ------------------------------------
+    Button
+    {     
+	font-family=basefont
+	font-size=20
+	font-weight=400
+	font-style=uppercase
+	textcolor="Text"
+    }
+    CheckButton
+    {
+      font-family=basefont
+      font-size=20
+      font-weight=400
+      textcolor="Label"
+    }
+    IndeterminateCheckButton
+    {
+	font-family=basefont
+	font-size=20
+	font-weight=400
+	textcolor="Label"
+    }
+    ComboBox
+    {
+      textcolor="Text"
+      font-family=basefont
+      font-size=20
+      selectedtextcolor="TextEntrySelected"
+      selectedbgcolor="TextSelectedBG"
+    }
+    Label
+    {
+	textcolor="Label"
+	selectedtextcolor="Text"
+	font-family=basefont
+	font-size=20
+	font-weight=400
+    }
+    ListPanel
+    {
+	font-family=basefont
+	font-size=20
+	font-weight=400
+	textcolor="text2"
+	selectedtextcolor="TextSelected"
+	selectedbgcolor="Focus"
+	shadowtextcolor="TextDisabled"	// the color of disabled line items
+    }
+
+
+    "Page ListPanel"
+    {
+	font-family=basefont
+	font-size=20
+	font-weight=400
+	textcolor="Text2"
+	selectedtextcolor="TextSelected"
+	selectedbgcolor="Focus"
+    }
+    "CGamesListPanel"
+    {
+      font-family=basefont
+      font-size=22
+      font-weight=400
+      textcolor="Text"
+      selectedtextcolor="textselected"
+      selectedbgcolor="Focus"
+      shadowtextcolor="TextDisabled"
+    }
+
+    // --- frame ------------------------------------
+    FrameTitle
+    {
+		font-family=basefont
+		font-size=20
+		font-weight=400
+		textcolor="buttonborderfocus"
+		bgcolor="none"
+    }
+    FrameTitle:framefocus
+    {
+		font-family=basefont
+		font-size=20
+		font-weight=400
+		bgcolor="none"
+		textcolor="texthover"
+		textcolor="texthover" [$OSX]
+    }
+
+    // --- friend list ------------------------------------
+    CFriendsListSectionAffordance
+    {     
+      font-size=20
+      font-weight=400
+      textcolor="Label"
+    }
+    CFriendsListSectionHeader
+    {
+      font-family=basefont
+      font-size=14
+      font-size=13 [$OSX]
+      font-weight=400
+      textcolor="texthover"
+    }       
+    CFriendPanel
+    {
+      font-family=basefont
+      font-size=20
+      font-size=18 [$OSX]
+      font-weight=400
+      textcolor="label"
+    }
+    "CFriendsDialog SectionedListPanelInterior"
+    {
+	font-family=basefont
+	font-size=20
+	font-weight=400
+	textcolor="Text"
+	selectedtextcolor="TextSelected"
+	selectedbgcolor="Focus"
+	shadowtextcolor="TextDisabled"	// the color of disabled line items		
+    }
+  }
+}
+
