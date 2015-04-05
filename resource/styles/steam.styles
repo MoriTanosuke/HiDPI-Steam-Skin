@@ -2984,22 +2984,18 @@ steam.styles
   
 	gamedetails-headerlabel
 	{
-		font-size="17"
-		font-style="normal"
-		font-family=basefont
-		font-weight=700
-		textcolor="Text"
-		font-style="uppercase;"
 	}
 
 	gamedetails-headerlabel-red
 	{
-		font-size="17"
-		font-style="normal"
-		font-family=basefont
-		font-weight=700
-		textcolor="GameDetailsRed"
-		font-style="uppercase;"
+	}
+
+	gamedetails-headerlabel-green
+	{
+	}
+
+	gamedetails-headerlabel-blue
+	{
 	}
  
  	"html-findbar"
@@ -3044,26 +3040,6 @@ steam.styles
 		        1="gradient_horizontal( x0, y0, x1, y0 + 1, ButtonBorder, none )" 
 		        2="gradient_horizontal( x0, y1 - 1, x1, y1, ButtonBorder, none )"
 		      }     	
-	}
-		
-	gamedetails-headerlabel-green
-	{
-		font-size="17"
-		font-style="normal"
-		textcolor="GameDetailsGreen"
-		font-family=basefont
-		font-weight=700
-		font-style="uppercase;"
-	}
-
-	gamedetails-headerlabel-blue
-	{
-		font-size="17"
-		font-style="normal"
-		textcolor="GameDetailsBlue"
-		font-family=basefont
-		font-weight=700
-		font-style="uppercase;"
 	}
 	
 	// styles for text used in RichText controls in various places

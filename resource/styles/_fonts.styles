@@ -184,6 +184,58 @@
 	shadowtextcolor="TextDisabled"	// the color of disabled line items		
     }
 
+    // --- newsitem --------------------------------------
+	gamedetails-headerlabel-green
+	{
+		font-size="24"
+		font-style="normal"
+		textcolor="GameDetailsGreen"
+		font-family=basefont
+		font-weight=700
+		font-style="uppercase;"
+	}
+
+	gamedetails-headerlabel-blue
+	{
+		font-size="24"
+		font-style="normal"
+		textcolor="GameDetailsBlue"
+		font-family=basefont
+		font-weight=700
+		font-style="uppercase;"
+	}
+	gamedetails-headerlabel
+	{
+		font-size="24"
+		font-style="normal"
+		font-family=basefont
+		font-weight=700
+		textcolor="Text"
+		font-style="uppercase;"
+	}
+
+	gamedetails-headerlabel-red
+	{
+		font-size="24"
+		font-style="normal"
+		font-family=basefont
+		font-weight=700
+		textcolor="GameDetailsRed"
+		font-style="uppercase;"
+	}
+
+    newsitem_body
+    {
+        font-size=20
+    }
+
+    // --- rightcolumnlink ------------------------------------
+
+    rightcolumnlink
+    {
+        font-size=20
+    }
+
 
     // --- menu ------------------------------------
 	Menu
