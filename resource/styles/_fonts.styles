@@ -49,7 +49,60 @@
 	selectedbgcolor="Focus"
 	shadowtextcolor="TextDisabled"	// the color of disabled line items
     }
+    ListPanelCheckBox
+    {
+	font-family=basefont
+	font-size=20
+	font-weight=400
+	textcolor="Label"
+    }
 
+    "ListPanelColumnheader ListPanelCheckBox"
+    {
+	font-family=basefont
+	font-size=20
+	font-weight=400
+	textcolor="Label"
+    }
+     
+    "ListPanelColumnheader ListPanelCheckBox:focus"
+    {
+      font-family=basefont
+      font-size=20
+      font-weight=400
+      textcolor="TextHover"
+    }
+
+    ListPanelColumnHeader:hover
+    {
+	textcolor="Texthover"
+    }
+      
+    "Csteamrootdialog ListPanelColumnheader"
+    {
+	font-family=basefont
+	font-size=20
+	font-size=18 [$OSX]
+	font-weight=400
+	textcolor="label"
+	font-style="uppercase"
+    }
+
+   
+    "Csteamrootdialog ListPanelColumnHeader:hover"
+    {
+	textcolor="TextHover"
+    }
+
+    ListPanelColumnheader
+    {
+	font-family=basefont
+	font-size=14
+	font-size=13 [$OSX]
+	font-weight=400
+	textcolor="label"
+	font-style="uppercase"
+    }
 
     "Page ListPanel"
     {
@@ -63,12 +116,19 @@
     "CGamesListPanel"
     {
       font-family=basefont
-      font-size=22
+      font-size=26
       font-weight=400
       textcolor="Text"
       selectedtextcolor="textselected"
       selectedbgcolor="Focus"
       shadowtextcolor="TextDisabled"
+    }
+    "GameColumn_BigText"
+		{
+		font-family=basefont
+		font-size=24
+		font-weight=700
+		textcolor="text"
     }
 
     // --- frame ------------------------------------
@@ -123,6 +183,95 @@
 	selectedbgcolor="Focus"
 	shadowtextcolor="TextDisabled"	// the color of disabled line items		
     }
+
+
+    // --- menu ------------------------------------
+	Menu
+    {
+		bgcolor="MenuBG2"
+    }
+      
+    MenuBar
+    {
+    }
+    
+    "Page MenuBar"
+    {
+    }
+    
+    "MenuBar MenuButton" 
+	{
+		textcolor="buttonborder"
+	}
+	
+ 	"MenuBar MenuButton:frameFocus" 
+	{
+		textcolor="labeldisabled"
+	}
+	
+	"MenuBar MenuButton:frameFocus:hover" 
+	{
+		textcolor="texthover"
+	}
+	
+	"MenuBar MenuButton:frameFocus:selected" 
+	{
+		textcolor="texthover"
+	}
+	
+    MenuButton
+    {
+      font-family=basefont
+      font-size=20
+      font-weight=400
+      textcolor="scrollglyph"
+    }  
+   
+    MenuButton:hover
+    {
+      textcolor="white"
+    }
+    
+    MenuButton:selected
+    {
+		textcolor="white"
+    }
+        
+    MenuItem
+    {
+		font-family=basefont
+		textcolor="label"
+		font-size=20
+		font-weight=400
+    }
+   
+  MenuItem:selected
+    {
+		textcolor="TextHover"
+    }
+	
+  MenuItem:hover
+    {
+		textcolor="white"
+    }
+    
+    MenuItem:disabled
+    {
+		textcolor="labeldisabled"
+		shadowtextcolor=none
+    }
+    
+    MenuItem:disabled:hover
+    {
+		textcolor="labeldisabled"
+		shadowtextcolor=none
+    }
+   
+    MenuSeparator
+    {
+		textcolor="divider"
+    }
+
   }
 }
 

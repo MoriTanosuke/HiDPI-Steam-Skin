@@ -1169,18 +1169,10 @@ steam.styles
     
     "GameColumn_BigText"
 		{
-		font-family=basefont
-		font-size=17
-		font-weight=700
-		textcolor="text"
     }
     
     ListPanelCheckBox
     {
-		font-family=basefont
-		font-size=14
-		font-weight=400
-		textcolor="Label"
 		image="graphics/chkUnselStd_Sm"
 		inset="0 5 0 0"
     }   
@@ -1222,10 +1214,6 @@ steam.styles
     
     "ListPanelColumnheader ListPanelCheckBox"
     {
-		font-family=basefont
-		font-size=14
-		font-weight=400
-		textcolor="Label"
 		image="graphics/chkUnSelFocus_Sm"
 		inset="4 0 0 0"  
 		}
@@ -1238,10 +1226,6 @@ steam.styles
 	
 		"ListPanelColumnheader ListPanelCheckBox:focus"
     {
-      font-family=basefont
-      font-size=14
-      font-weight=400
-      textcolor="TextHover"
       image="graphics/chkUnSelFocus_Sm"
       inset="4 0 0 0"  
 		}
@@ -1257,12 +1241,6 @@ steam.styles
     
     ListPanelColumnheader
     {
-		font-family=basefont
-		font-size=14
-		font-size=13 [$OSX]
-		font-weight=400
-		textcolor="label"
-		font-style="uppercase"
 		bgcolor="none"
 		inset="1 3 0 0"
 		render_bg    
@@ -1275,17 +1253,10 @@ steam.styles
     
     ListPanelColumnHeader:hover
     {
-		textcolor="Texthover"
     }
       
 	"Csteamrootdialog ListPanelColumnheader"
     {
-		font-family=basefont
-		font-size=14
-		font-size=13 [$OSX]
-		font-weight=400
-		textcolor="label"
-		font-style="uppercase"
 		bgcolor="none"
 		inset="0 0 0 0"
 		inset="0 1 0 0" [$OSX]
@@ -1300,7 +1271,6 @@ steam.styles
    
     "Csteamrootdialog ListPanelColumnHeader:hover"
     {
-		textcolor="TextHover"
     }
     
    	"Csteamrootdialog ListPanelSectionCollapser"
@@ -1624,19 +1594,16 @@ steam.styles
     
 	"MenuBar MenuButton" 
 	{
-		textcolor="buttonborder"
 		padding-right=-2
 		inset="-2 0 2 0"
 	}
 	
  	"MenuBar MenuButton:frameFocus" 
 	{
-		textcolor="labeldisabled"
 	}
 	
 	"MenuBar MenuButton:frameFocus:hover" 
 	{
-		textcolor="texthover"
 		bgcolor=none
 		render_bg
    		{    
@@ -1645,7 +1612,6 @@ steam.styles
 	
 	"MenuBar MenuButton:frameFocus:selected" 
 	{
-		textcolor="texthover"
 		bgcolor=none
 		render_bg
    		{    
@@ -1654,30 +1620,20 @@ steam.styles
 	
 	MenuButton
     {
-      font-family=basefont
-      font-size=14
-      font-weight=400
-      textcolor="scrollglyph"
       bgcolor="none"
       render_bg {}
     }  
    
   MenuButton:hover
     {
-      textcolor="white"
     }
     
   MenuButton:selected
     {
-		textcolor="white"
     }
         
 	MenuItem
     {
-		font-family=basefont
-		textcolor="label"
-		font-size=14
-		font-weight=400
 		inset="0 0 0 0"
 		padding-right=6
 		bgcolor="none"
@@ -1686,32 +1642,25 @@ steam.styles
    
   MenuItem:selected
     {
-		textcolor="TextHover"
 		bgcolor="none"
     }
 	
   MenuItem:hover
     {
-		textcolor="white"
 		bgcolor="none"
     }
     
     MenuItem:disabled
     {
-		textcolor="labeldisabled"
-		shadowtextcolor=none
     }
     
     MenuItem:disabled:hover
     {
-		textcolor="labeldisabled"
-		shadowtextcolor=none
     }
    
     MenuSeparator
     {
 		inset="-4 0 0 0"	
-		textcolor="divider"
 		bgcolor=none
     }
 
