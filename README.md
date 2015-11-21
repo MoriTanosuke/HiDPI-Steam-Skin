@@ -15,4 +15,4 @@ cd ~/.steam/skins
 git clone https://github.com/MoriTanosuke/HiDPI-Steam-Skin.git
 ````
 
-Open Steam, go to Settings -> Interface and choose the new skin `HiDPI-Steam-Skin.git`.
+Open Steam, go to Settings -> Interface and choose the new skin `HiDPI-Steam-Skin`.
