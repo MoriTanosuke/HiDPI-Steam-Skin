@@ -11,7 +11,7 @@ Installation
 ------------
 
 ````
-cd ~/.steam/steam/skins
+cd ~/.steam/skins
 git clone https://github.com/MoriTanosuke/HiDPI-Steam-Skin.git
 ````
 
