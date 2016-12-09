@@ -1708,7 +1708,7 @@ steam.styles
     {
 		textcolor="Label"
 		font-family=basefont
-		font-size=13
+		font-size=16
 		font-style=Uppercase
 		font-weight=400
 		inset="0 -2 0 0"
@@ -1725,7 +1725,7 @@ steam.styles
     {
 		textcolor="texthover"
 		font-family=basefont
-		font-size=13
+		font-size=16
 		font-style=Uppercase
 		font-weight=400
 		inset="0 -2 0 0"
@@ -1743,7 +1743,7 @@ steam.styles
     {
 		textcolor="texthover"
 		font-family=basefont
-		font-size=13
+		font-size=16
 		font-style=Uppercase
 		font-weight=400
 		inset="0 -2 0 0"
@@ -1759,7 +1759,7 @@ steam.styles
     {
 		textcolor="texthover"
 		font-family=basefont
-		font-size=13
+		font-size=16
 		font-style=Uppercase
 		font-weight=400
 		inset="0 -2 0 0"
@@ -1779,7 +1779,7 @@ steam.styles
 
 	"PageDragFrame PageTab"
 	{
-		font-size=14
+		font-size=16
 		font-style=""
 	}
 
@@ -2253,7 +2253,7 @@ steam.styles
     {
       bgcolor="none"
       font-family=basefont
-      font-size=14
+      font-size=20
       font-weight=400
       textcolor="Text"
       selectedtextcolor="TextSelected"
@@ -3070,7 +3070,7 @@ steam.styles
 		textcolor="text"
 		selectedtextcolor="TextentrySelected"	
 		SelectedBgColor="focus"
-		font-size=16
+		font-size=18
 	}
 	
 	friends_chat_text_self
@@ -3078,7 +3078,7 @@ steam.styles
 		textcolor="ChatOwnTextColor"
 		selectedtextcolor="TextentrySelected"	
 		selectedbgcolor="focus"
-		font-size=16
+		font-size=18
 	}
 
 	friends_chat_history
@@ -3086,13 +3086,13 @@ steam.styles
 		textcolor="ChatDialog.HistoryColor"
 		selectedtextcolor="TextentrySelected"	
 		selectedbgcolor="focus"
-		font-size=16
+		font-size=18
 	}
 	
 	friends_chat_event
 	{
 		textcolor="Text"
-		font-size=16
+		font-size=18
 		selectedtextcolor="TextentrySelected"
 		selectedbgcolor="focus"
 	}
@@ -3101,7 +3101,7 @@ steam.styles
 	{
 		textcolor="text"
 		selectedtextcolor="TextentrySelected"
-		font-size=16
+		font-size=18
 		font-weight=1000
 	}
 
@@ -3110,7 +3110,7 @@ steam.styles
 		textcolor="text"
    		SelectedBgColor="focus"
 		font-style=underline
-		font-size=16
+		font-size=18
 		selectedtextcolor="TextentrySelected"
 		selectedbgcolor="focus"
 	}
@@ -3120,7 +3120,7 @@ steam.styles
 		textcolor="Friends.InGameColor"
 		selectedtextcolor="TextentrySelected"	
 		selectedbgcolor="focus"
-		font-size=16
+		font-size=18
 	}
 
 	friends_chat_name_golden
@@ -3128,7 +3128,7 @@ steam.styles
 		textcolor="Friends.GoldenColor"
 		selectedtextcolor="TextentrySelected"	
 		selectedbgcolor="focus"
-		font-size=16
+		font-size=18
 	}
 
 	
@@ -3137,7 +3137,7 @@ steam.styles
 		textcolor="Friends.OnlineColor"
 		selectedtextcolor="TextentrySelected"	
 		selectedbgcolor="focus"
-		font-size=16
+		font-size=18
 	}
 	
 	friends_chat_name
@@ -3145,7 +3145,7 @@ steam.styles
 		textcolor="Friends.OnlineColor"
 		selectedtextcolor="TextentrySelected"	
 		selectedbgcolor="focus"
-		font-size=16
+		font-size=18
 	}
 	
 	friends_chat_accountid
@@ -3153,7 +3153,7 @@ steam.styles
 		selectedtextcolor="TextentrySelected"	
 		selectedbgcolor="focus"
 		textcolor="text"
-		font-size=16
+		font-size=18
 	}
 	
 	friends_chat_securitylink
@@ -3161,7 +3161,7 @@ steam.styles
 		textcolor="text"
 		bgcolor="none"
 		font-family=basefont
-		font-size=16
+		font-size=18
 		font-weight=400
 		font-style=underline
 		selectedtextcolor="TextSelected"	
@@ -3189,7 +3189,7 @@ steam.styles
 
 		render_bg
 			{
-						 0="gradient( x0, y0, x1 -16, y1, darkdialogbg, almostblack )"
+			 0="gradient( x0, y0, x1 -16, y1, darkdialogbg, almostblack )"
 			}
 		}
 			
@@ -3198,7 +3198,7 @@ steam.styles
 	{
 		font-family=basefont
 		font-style="uppercase"
-		font-size="13"
+		font-size=16
 		font-weight=400
 		textcolor="text"
 		bgcolor="none"
