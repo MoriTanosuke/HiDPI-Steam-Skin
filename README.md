@@ -18,3 +18,13 @@ git clone https://github.com/MoriTanosuke/HiDPI-Steam-Skin.git
 Open Steam, go to Settings -> Interface and choose the new skin `HiDPI-Steam-Skin`.
 
 The exact path to the skins might be different in your installation. You might want to check `~/.local/share/Steam/skins/`, `~/.steam/skins` or `~/.steam/steam/skins`.
+
+Screenshots
+-----------
+
+Here are some screenshots provided by @mcvendrell 
+
+![Screenshot #1](docs/screenshots/screenshot1.png)
+![Screenshot #2](docs/screenshots/screenshot2.png)
+![Screenshot #3](docs/screenshots/screenshot3.png)
+![Screenshot #4](docs/screenshots/screenshot4.png)
