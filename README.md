@@ -1,3 +1,7 @@
+**DISCONTINUED: I GAVE UP ON THIS SKIN AND AM BACK ON WINDOWS FOR MY GAMING.**
+
+
+
 What is this?
 =============
 
